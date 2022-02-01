@@ -10,7 +10,7 @@ namespace LogicalPrograms
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter your choice between 1 & 2 : ");
+            Console.WriteLine("Enter your choice between 1 to 3 : ");
             Console.WriteLine("1 For: Fibonacci series. ");
             Console.WriteLine("2 For: Perfect number. ");
             Console.WriteLine("3 For: Prime number. ");
@@ -23,12 +23,12 @@ namespace LogicalPrograms
                     FibSeries.Fibonacci();
                     break;
                 case 2:
-                    //Perfect Number
+                    //Perfect number
                     Perfectnumber Perfect = new Perfectnumber();
                     Perfect.Perfect();
                     break;
                 case 3:
-                    //Prime Number
+                    //Prime number
                     Primenumber Prime = new Primenumber();
                     Prime.Prime();
                     break;

@@ -10,7 +10,7 @@ namespace LogicalPrograms
     {
         public void Prime()
         {
-            Console.Write("Enter a Number : ");
+            Console.Write("Enter a number : ");
             int number = int.Parse(Console.ReadLine());
             bool IsPrime = true;
             for (int i = 2; i < number / 2; i++)
