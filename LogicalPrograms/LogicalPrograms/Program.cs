@@ -10,10 +10,11 @@ namespace LogicalPrograms
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter your choice between 1 to 3 : ");
+            Console.WriteLine("Enter your choice between 1 to 4 : ");
             Console.WriteLine("1 For: Fibonacci series. ");
             Console.WriteLine("2 For: Perfect number. ");
             Console.WriteLine("3 For: Prime number. ");
+            Console.WriteLine("4 For: Reverse number. ");
             int selection = Convert.ToInt32(Console.ReadLine());
             switch (selection)
             {
@@ -31,6 +32,11 @@ namespace LogicalPrograms
                     //Prime number
                     Primenumber Prime = new Primenumber();
                     Prime.Prime();
+                    break;
+                case 4:
+                    //Reverse number
+                    Reversenumber Reverse = new Reversenumber();
+                    Reverse.Reverse();
                     break;
                 default:
                     Console.WriteLine("Invalid Selection.");
