@@ -13,6 +13,7 @@ namespace LogicalPrograms
             Console.WriteLine("Enter your choice between 1 & 2 : ");
             Console.WriteLine("1 For: Fibonacci series. ");
             Console.WriteLine("2 For: Perfect number. ");
+            Console.WriteLine("3 For: Prime number. ");
             int selection = Convert.ToInt32(Console.ReadLine());
             switch (selection)
             {
@@ -25,6 +26,11 @@ namespace LogicalPrograms
                     //Perfect Number
                     Perfectnumber Perfect = new Perfectnumber();
                     Perfect.Perfect();
+                    break;
+                case 3:
+                    //Prime Number
+                    Primenumber Prime = new Primenumber();
+                    Prime.Prime();
                     break;
                 default:
                     Console.WriteLine("Invalid Selection.");
