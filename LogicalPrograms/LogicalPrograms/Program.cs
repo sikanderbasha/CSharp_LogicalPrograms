@@ -10,8 +10,9 @@ namespace LogicalPrograms
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter your choice : ");
+            Console.WriteLine("Enter your choice between 1 & 2 : ");
             Console.WriteLine("1 For: Fibonacci series. ");
+            Console.WriteLine("2 For: Perfect number. ");
             int selection = Convert.ToInt32(Console.ReadLine());
             switch (selection)
             {
@@ -19,6 +20,11 @@ namespace LogicalPrograms
                     //Fibonacci Series
                     Fibonacciseries FibSeries = new Fibonacciseries();
                     FibSeries.Fibonacci();
+                    break;
+                case 2:
+                    //Perfect Number
+                    Perfectnumber Perfect = new Perfectnumber();
+                    Perfect.Perfect();
                     break;
                 default:
                     Console.WriteLine("Invalid Selection.");
