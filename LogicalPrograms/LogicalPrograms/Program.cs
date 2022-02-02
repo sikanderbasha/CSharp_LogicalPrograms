@@ -10,12 +10,13 @@ namespace LogicalPrograms
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Enter your choice between 1 to 4 : ");
+            Console.WriteLine("Enter your choice between 1 to 5 : ");
             Console.WriteLine("1 For: Fibonacci series. ");
             Console.WriteLine("2 For: Perfect number. ");
             Console.WriteLine("3 For: Prime number. ");
             Console.WriteLine("4 For: Reverse number. ");
             Console.WriteLine("5 For: Vending machine. ");
+           
             int selection = Convert.ToInt32(Console.ReadLine());
             switch (selection)
             {
@@ -40,7 +41,7 @@ namespace LogicalPrograms
                     Reverse.Reverse();
                     break;
                 case 5:
-                    //Reverse number
+                    //Vending machine
                     Vendingmachine machine = new Vendingmachine();
                     machine.Money();
                     break;
