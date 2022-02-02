@@ -15,6 +15,7 @@ namespace LogicalPrograms
             Console.WriteLine("2 For: Perfect number. ");
             Console.WriteLine("3 For: Prime number. ");
             Console.WriteLine("4 For: Reverse number. ");
+            Console.WriteLine("5 For: Vending machine. ");
             int selection = Convert.ToInt32(Console.ReadLine());
             switch (selection)
             {
@@ -37,6 +38,11 @@ namespace LogicalPrograms
                     //Reverse number
                     Reversenumber Reverse = new Reversenumber();
                     Reverse.Reverse();
+                    break;
+                case 5:
+                    //Reverse number
+                    Vendingmachine machine = new Vendingmachine();
+                    machine.Money();
                     break;
                 default:
                     Console.WriteLine("Invalid Selection.");
