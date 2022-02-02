@@ -1,5 +1,0 @@
-﻿2022-02-02 10:05:57.7359|INFO|NLogProject.NLog|Sum()
-2022-02-02 10:05:57.7809|DEBUG|NLogProject.NLog|Debug Method sum()
-2022-02-02 10:05:57.7809|ERROR|NLogProject.NLog|Error occurred in some method
-2022-02-02 10:05:57.7809|INFO|NLogProject.NLog|Sum()
-2022-02-02 10:05:57.7809|DEBUG|NLogProject.NLog|Debug Method sum()
